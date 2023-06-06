@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NextButton from 'components/NextButton'
+import SubmitButton from 'components/SubmitButton'
 
 import { checkboxValues } from '../reusable/constants'
 
@@ -31,7 +31,7 @@ const Checkbox = ({ setIsChecked, isChecked }) => {
         </div>
         )
       })}
-      <NextButton isChecked={isChecked} />
+      <SubmitButton isChecked={isChecked} />
     </div>
   )
 }

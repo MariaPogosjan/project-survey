@@ -5,7 +5,6 @@ export const amountOfTimes= [
   'everyday'
 ]
 
-
 export const places = [
   'in the library',
   'while commuting',
@@ -13,7 +12,6 @@ export const places = [
   'at home',
   'in a group'
 ]
-
 
 export const checkboxValues = [
   "newsletter",

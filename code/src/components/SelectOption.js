@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NextButton from 'components/NextButton'
+import NextButton from 'components/SubmitButton'
  
 const SelectOption = ({ setFavoriteTime, favoriteTime }) => {
 
@@ -13,6 +13,7 @@ const SelectOption = ({ setFavoriteTime, favoriteTime }) => {
       <h1 className="question-header">Your favorite time to read?</h1>
       <div className="custom-select">
         <select
+          required
           onChange={onFavoriteTimeChange}
           value= {favoriteTime} 
         >
@@ -22,7 +23,6 @@ const SelectOption = ({ setFavoriteTime, favoriteTime }) => {
           <option value="evening">Evening</option>
           <option value="vacation">Vacation</option>
         </select>
-        <NextButton />
       </div>
     </div>  
   )

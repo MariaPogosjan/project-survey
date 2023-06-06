@@ -1,6 +1,6 @@
 import React from 'react' 
 
-import NextButton from 'components/NextButton'
+import NextButton from 'components/SubmitButton'
 
 import { places } from '../reusable/constants'
 
@@ -21,6 +21,7 @@ const RadioButtonTwo = ({ setFavoritePlace, favoritePlace }) => {
                 <input
                   name="place"
                   type='radio'
+                  required
                   value={place}
                   onChange={onPlaceChange}
                   checked = {favoritePlace === place}
@@ -30,7 +31,6 @@ const RadioButtonTwo = ({ setFavoritePlace, favoritePlace }) => {
             </div>
           )}
         )}
-        <NextButton />
       </div>
   )
 }

@@ -1,5 +1,8 @@
 import React from 'react'
 
+import NextButton from 'components/SubmitButton'
+
+
 const Header = () => {
   return (
     <header className="header">
@@ -9,12 +12,6 @@ const Header = () => {
       <div className="header-content">
         <h1>Are you a book lover?</h1>
         <h2>By answering this questions you will see your reading pattern.</h2>
-        <button
-          aria-label='Start the survey'
-          className="start-btn"
-          >
-            Start
-        </button>
       </div>
     </header>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NextButton from 'components/NextButton'
+import NextButton from 'components/SubmitButton'
 
 const NameQuestion = ({ setName, name }) => {
 
@@ -14,13 +14,13 @@ const NameQuestion = ({ setName, name }) => {
       <div className="name-question">
         <label htmlFor="name">
           <input
+            required
             name="name"
             type="text"
             value={name}
             onChange={onNameChange}
           />
         </label>
-        <NextButton />
       </div> 
     </div>
   )

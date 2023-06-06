@@ -16,13 +16,11 @@ const Form = () => {
   const [favoritePlace, setFavoritePlace] = useState ('')
   const [isChecked, setIsChecked] = useState([])
   const [isSubmited, setIsSubmited] = useState(false)
-  const [questionIndex, setQuestionIndex] = useState(0)
 
   const isSurveyComplete = (event) => {
     event.preventDefault()
     setIsSubmited(true)
   }
-
 
   return (
     <main className="form">
@@ -36,8 +34,9 @@ const Form = () => {
             <RadioButtonTwo favoritePlace={favoritePlace} setFavoritePlace={setFavoritePlace} />
             <Checkbox isChecked={isChecked} setIsChecked={setIsChecked}/>
           </>
-          ) : (
+          ) : (
           <Summary 
+            name={name} 
             readingTime={readingTime} 
             favoriteTime={favoriteTime} 
             place={favoritePlace} 
