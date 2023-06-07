@@ -1,8 +1,5 @@
 import React from 'react'
 
-import NextButton from 'components/SubmitButton'
-
-
 const Header = () => {
   return (
     <header className="header">
