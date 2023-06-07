@@ -16,7 +16,7 @@ const SelectOption = ({ setFavoriteTime, favoriteTime }) => {
           value= {favoriteTime} 
         >
           <option disabled value="">Select a time</option>
-          <option value="morning">Morning</option>
+          <option value="morning">Before bedtime</option>
           <option value="lunch">Lunch time</option>
           <option value="evening">Evening</option>
           <option value="vacation">Vacation</option>
