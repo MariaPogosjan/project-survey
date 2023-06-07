@@ -1,7 +1,5 @@
 import React from 'react'
 
-import NextButton from 'components/SubmitButton'
-
 import { amountOfTimes } from '../reusable/constants'
 
 const RadioButtonOne = ({ setTime, readingTime }) => {

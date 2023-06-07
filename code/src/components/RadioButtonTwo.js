@@ -1,7 +1,5 @@
 import React from 'react' 
 
-import NextButton from 'components/SubmitButton'
-
 import { places } from '../reusable/constants'
 
 

@@ -1,7 +1,5 @@
 import React from 'react'
 
-import NextButton from 'components/SubmitButton'
-
 const NameQuestion = ({ setName, name }) => {
 
   const onNameChange = (e) => {

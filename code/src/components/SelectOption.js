@@ -1,6 +1,4 @@
 import React from 'react'
-
-import NextButton from 'components/SubmitButton'
  
 const SelectOption = ({ setFavoriteTime, favoriteTime }) => {
 
